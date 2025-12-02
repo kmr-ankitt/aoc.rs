@@ -1,3 +1,4 @@
+mod day01;
 
 use std::{env, panic};
 
@@ -15,6 +16,7 @@ fn main() {
     let input_file_path = format!("src/day{}/{}.txt", day, input);
 
     match day.as_str() {
+        "01" => day01::run(&input_file_path),
         _ => panic!("day {} not implemented yet", day),
     }
 }
