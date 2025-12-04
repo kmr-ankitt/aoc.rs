@@ -1,5 +1,6 @@
 mod day01;
 mod day02;
+mod day03;
 
 use std::{env, panic};
 
@@ -18,7 +19,8 @@ fn main() {
 
     match day.as_str() {
         "01" => day01::run(&input_file_path),
-        "02" => day02::run(&input_file_path), // placeholder
+        "02" => day02::run(&input_file_path),
+        "03" => day03::run(&input_file_path), 
         _ => panic!("day {} not implemented yet", day),
     }
 }
