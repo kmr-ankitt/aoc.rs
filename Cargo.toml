@@ -4,3 +4,5 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+keyed_priority_queue = "0.4.2"
+ordered-float = "5.1.0"
