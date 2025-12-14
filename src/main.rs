@@ -7,6 +7,7 @@ mod day06;
 mod day07;
 mod day08;
 mod day09;
+mod day10;
 
 use std::{env, panic};
 
@@ -33,6 +34,7 @@ fn main() {
         "07" => day07::run(&input_file_path),
         "08" => day08::run(&input_file_path),
         "09" => day09::run(&input_file_path),
+        "10" => day10::run(&input_file_path),
         _ => panic!("day {} not implemented yet", day),
     }
 }
